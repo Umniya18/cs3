@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -10,13 +10,12 @@ public class WordTester
 {
 	public static void main(String[] args)
 	{
-		//add test cases
+		Word myWord= new Word("apple");
+      out.println(myWord.toString());		
 		
 		
 		
 		
-		
-		//add more test cases
 		
 		
 		

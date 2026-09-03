@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -11,8 +11,10 @@ import java.util.Scanner;
 
 public class Lab01b
 {
-	public static void main( String args[] ) throws IOException
-	{
-		//add code and test cases here
-	}
+    public static void main(String args[]) throws IOException
+    {
+        
+        FancyWord test = new FancyWord("DogHouse");
+        System.out.println(test.toString());
+    }
 }
