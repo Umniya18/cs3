@@ -1,3 +1,4 @@
+
 //© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
@@ -11,8 +12,16 @@ import static java.lang.System.*;
 
 public class Lab05b
 {
-	public static void main ( String[] args )
-	{
-		//add test cases		
-	}
+   public static void main(String[] args)
+   {
+      ListIteratorTest test;
+
+      test = new ListIteratorTest("a b c d e");
+      test.replace("a","x");
+      out.println(test);
+      
+
+         }
 }
+
+
