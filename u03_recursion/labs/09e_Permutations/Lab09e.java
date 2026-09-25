@@ -1,4 +1,3 @@
-//© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -11,6 +10,18 @@ public class Lab09e
 {
    public static void main( String args[] )
    {
-	    //add test cases	    
-	}
+        Permutation one = new Permutation("ABC");
+        one.permutation();
+
+        Permutation two = new Permutation("abc");
+        two.permutation();
+
+        Permutation three = new Permutation("boat");
+        three.permutation();
+
+        Permutation four = new Permutation("it");
+        four.permutation();	}
 }
+
+
+

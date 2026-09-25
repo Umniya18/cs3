@@ -1,4 +1,5 @@
-//� A+ Computer Science  -  www.apluscompsci.com
+
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -27,7 +28,22 @@ public class Permutation
 	private void permutation(String orig, String sent)
 	{
 
+       if(sent.length() == orig.length())
+    {
+        out.println(sent);
+    }
+    else
+    {
+        for(int i = 0; i < orig.length(); i++)
+        {
+            String ch = orig.substring(i, i + 1);
 
+            if(!sent.contains(ch))
+            {
+                permutation(orig, sent + ch);
+            }
+        }
+     }
 
 
 
@@ -46,3 +62,4 @@ public class Permutation
    	return list;
    }
 }
+

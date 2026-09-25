@@ -1,4 +1,5 @@
-//� A+ Computer Science  -  www.apluscompsci.com
+
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -15,6 +16,11 @@ public class GCF
 	{
 		
 		
-		return 0;
+		if(n2==0)
+      {
+         return n1;
+      }
+      return gcf(n2, n1%n2);
 	}
 }
+

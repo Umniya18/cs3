@@ -1,4 +1,4 @@
-//� A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -11,6 +11,8 @@ public class Lab09a
 {
 	public static void main( String args[] )
 	{
-		//add test cases		
+		out.println("GCF(16,256)     ----- " + GCF.gcf(16, 256));
+      out.println("GCF(1000,2000)     ----- " + GCF.gcf(1000, 2000));	
 	}
 }
+
